@@ -40,6 +40,6 @@ print(best_sni)
 
 os.system("clear")
 print("Best SNI is : " + best_sni)
-print("\nYou can manaully set this as (dest) and (sni) in your xray config file.\n")
-print("\nHave a good day o/.\n")
+print("\nYou can manaully set this as (dest) and (sni) in your xray config file.")
+print("Have a good day o/.\n")
 
