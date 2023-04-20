@@ -1,5 +1,6 @@
 import os
 import subprocess
+import re
 
 result = []
 avg_value_list = []
@@ -16,7 +17,7 @@ my_file.close()
 #this tests all the domains in sni.txt file and puts them in a list called result
 
 for i in sni_list:
-    x = subprocess.check_output(f"tlsping {i}:443", shell=True).rstrip().decode('utf-8')
+    x = subprocess.check_output(f"./tlsping {i}:443", shell=True).rstrip().decode('utf-8')
     result.append(x)
     
 #this extracts all the avg tlsping values from the domains
@@ -39,4 +40,6 @@ print(best_sni)
 
 os.system("clear")
 print("Best SNI is : " + best_sni)
-print("\nPlease use manual mode and enter this sni :)\n")
+print("\nYou can manaully set this as (dest) and (sni) in your xray config file.\n")
+print("\nHave a good day o/.\n")
+
