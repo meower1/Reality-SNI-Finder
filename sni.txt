@@ -5,3 +5,8 @@ www.yahoo.com
 www.discord.com
 dl.google.com
 www.apple.com
+www.asus.com
+www.amd.com
+www.cisco.com
+www.linksys.com
+www.nvidia.com
