@@ -1,10 +1,11 @@
 # 🌟 Reality SNI finder :
-- The script scans a modifiable list of sni's written in sni.txt and returnes the one with the lowest tls latency.
+- Scans a list of pre-specified domains inside of sni.txt and returns an ordered table based off of their tls ping.
 - You can add your own sni's to the list or use the defualt ones
 
-# 📚 How to use :
-Paste the following commands in your terminal :
+# ⚙️ Installation :
 
-`git clone https://github.com/meower1/Reality-SNI-finder.git`<br>
-`cd Reality-SNI-finder`<br>
-`python3 main.py`
+```shell
+wget -N https://raw.githubusercontent.com/meower1/Reality-SNI-finder/main/run.sh && bash run.sh
+```
+
+<img width="423" alt="image" src="https://github.com/meower1/Reality-SNI-finder/assets/109747197/56d3720d-f5ed-49d5-b985-d001f1d9f85b">
