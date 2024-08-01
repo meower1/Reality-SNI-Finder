@@ -1,4 +1,4 @@
-# 🌟 Reality SNI finder :
+# 🌟 Reality SNI  yousef finder :
 - Scans a list of pre-specified domains inside of sni.txt and returns an ordered table based off of their tls ping.
 - You can add your own sni's to the list or use the defualt ones
 
