@@ -1,5 +1,5 @@
 #!/bin/bash
-
+test
 main() {
     sudo apt update
     sudo apt install git pip -y
