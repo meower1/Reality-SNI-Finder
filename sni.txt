@@ -14,3 +14,4 @@ cloudinary.com
 www.netlify.com
 stackoverflow.com
 www.gsmarena.com
+www.google.com
